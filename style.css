@@ -5,3 +5,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.box {
+  width: 150px;
+  height: 100px;  
+  padding: 50px;
+  border: 1px solid red;
+  display: inline-block;
+}
