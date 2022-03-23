@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  overflow: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+/* main boutli.com logo*/
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* navbar */
+.myNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+/* Remove bullets */
+.myNav ul {
+  list-style: none;
+}
+.myNav li {
+  display: inline;
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px 30px;
+}
+.myNav li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  padding: 14px 16px;
+}
+.myNav li:hover {
+  cursor: pointer;
+  background-color: #3f3f3f;
+}
+/* first image */
+.image-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-1 img {
+  padding: 20px;
+  margin-top: 20px;
+}
+.image-1 img:hover {
+  cursor: pointer;
+  width: 400px;
+}
+/* content text after first image*/
+.content_text_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.content_text_1 p {
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+/* second two images */
+.cover-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cover-image img {
+  padding: 20px;
+}
+.cover-image img:hover {
+  cursor: pointer;
+  width: 400px;
+}
+/* context text after 2 cover image*/
+.content_text_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.content_text_2 p {
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+/* buttons on screen ex:banking network button*/
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.buttons ul {
+  list-style: none;
+}
+.buttons li {
+  display: inline;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px 30px;
+}
+.buttons li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  padding: 14px 16px;
+}
+.buttons li:hover {
+  cursor: pointer;
+  background-color: #c5c5c5;
+  padding: 25px;
+}
+/* third image on screen name as image-2*/
+.image-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-2 img {
+  padding: 20px;
+}
+.image-2 img:hover {
+  cursor: pointer;
+  width: 400px;
+}
+/* content text after third image*/
+.content_text_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.content_text_3 p {
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+/* fourth two images*/
+.boutit-cover-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boutit-cover-image img {
+  padding: 20px;
+}
+.boutit-cover-image img:hover {
+  cursor: pointer;
+  width: 400px;
+}
+/* content text after forth two images*/
+.content_text_4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.content_text_4 p {
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+  padding: 8px;
+  color: black;
+  background-color: white;
+}
+/* footer section start */
+.footer {
+  text-align: center;
+  margin: 100px;
+}
+.footer h1 {
+  padding: 10px;
+}
+.footer p {
+  padding: 10px;
+}
+.footer a {
+  color: black;
+}
